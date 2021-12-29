@@ -28,7 +28,9 @@
     "import/prefer-default-export": "off",
     "no-param-reassign": ["error", {
       "props": false
-    }]
+    }],
+    "linebreak-style": 0, //error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    "no-trailing-spaces": ["warn", { "skipBlankLines": true }]  //warning  Trailing spaces not allowed   no-trailing-spaces https://eslint.org/docs/rules/no-trailing-spaces
   },
   "ignorePatterns": ["*config.js"]
 }
